@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: IBM Plex Sans;
+}
+
+body {
+    background-image: url(/bg-main-mobile.png);
+    background-position: left;
+
+}
+
+.headerdiv {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.45px;
+    color: #191826;
+}
+
+.headertext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    margin-top: 20px;
+}
+
+header {
+    margin-bottom: 162px;
+    width: 375px;
+}
+
+.headerlogo {
+    margin-top: 40px;
+    margin-bottom: 64px;
+}
+
+.phoneimg {
+    width: 209px;
+    z-index: 1;
+    transform: translateY(-98px);
+}
+
+.div1 {
+    background-color: #191826;
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+}
+
+.pattern2 {
+    width: 280px;
+    position: absolute;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.div2 {
+    background-color: #FA7453;
+    z-index: 2;
+    transform: translateY(-45px);
+    border-radius: 12px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+    padding-top: 48px;
+    margin-left: 36px;
+}
+
+.orangep {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: white;
+    padding-top: 12px;
+    margin-left: 36px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: white;
+}
+
+.monthp {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    color: white;
+    vertical-align: middle;
+}
+
+.dollardiv {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 36px;
+    margin-left: 42px;
+}
+
+.button1 {
+    all: unset;
+    background-color: #191826;
+    width: 296px;
+    margin-left: 42px;
+    margin-top: 32px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.ios {
+    color: white;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.appleimg {
+    margin-left: 75px;
+}
+
+.button2 {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 16px;
+    background-color: #fff;
+    width: 296px;
+    border: none;
+    border-radius: 12px;
+    margin-left: 42px;
+    margin-bottom: 48px;
+}
+
+.android {
+    color: black;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.androidimg {
+    margin-left: 60px;
+}
+
+.footerdiv {
+    margin-left: 24px;
+}
+
+.footerp {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    width: 327px;
+}
+
+footer p span {
+    font-weight: 400;
+    color: #191826;
+}
+
+.iconsdiv {
+    display: flex;
+    margin-top: 64px;
+    margin-bottom: 80px;
+    gap: 20px;
+}
+
+@media (min-width:768px) {
+    body {
+        background-image: url(/bg-main-tablet.png);
+        background-position: right;
+        background-image: url(/bg-pattern-1.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    .div2 {
+        width: 399px;
+        transform: translateY(-420px);
+        margin-left: 272px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.73px;
+
+    }
+
+    .headerlogo {
+        margin-top: 62px;
+        margin-bottom: 92px;
+    }
+
+    .headertext {
+        width: 520px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .phoneimg {
+        width: 270px;
+        transform: translateY(-150px);
+        margin-right: 361px;
+    }
+
+    .div1 {
+        width: 696px;
+        margin-left: 32px;
+        background-repeat: no-repeat;
+        margin-top: 111px;
+    }
+
+    .pattern2 {
+        width: 280px;
+        margin-left: 229px;
+        margin-right: 187px;
+    }
+
+    .headerdiv {
+        margin-left: 40px;
+    }
+}
+
+@media (min-width:1440px) {
+    .headerdiv {
+        margin-left: 165px;
+    }
+    
+    h1 {
+        width: 1015px;
+    }
+
+    .headertext {
+        width: 825px;
+    }
+    .phoneimg{
+        width: 312px;
+        margin-right:600px;
+    }
+    .div1{
+        width: 1110px;
+        margin-left: 165px;
+    }
+    .pattern2{
+        width: 312px;
+        margin-right: 368px;
+    }
+    .div2{
+        width: 446px;
+        margin-left: 734px;
+    } 
+    h2{
+        margin-top: 58px;
+        margin-left: 58px;
+    
+    }
+    .orangep{
+        width: 333px;
+        margin-left: 54px;
+        margin-bottom: 39px;
+    }
+    .button1{
+        width: 333px;
+        margin-left: 54px;
+    }
+    .button2{
+        width: 333px;
+        margin-left: 54px;
+    }
+    .appleimg{
+        margin-left: 96px;
+    }
+    .androidimg{
+        margin-left:80px ;
+    }
+    .footerdiv{
+        display: flex;
+        align-items: center;
+        
+    }
+    .footerlogo{
+        margin-left: 166px;
+        margin-right: 137px;
+        width: 146px;
+        margin-bottom: 45px;
+    }
+    .footerp{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        width: 366px;
+        margin-right: 359px;
+    }
+}
